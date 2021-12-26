@@ -898,8 +898,8 @@ img {
 }
 
 .form-input:focus {
-  outline: var(--navigation-color);
-  border-color: 1px solid var(--navigation-color);
+  outline: none;
+  border: 1px solid var(--navigation-color);
 }
 
 .form-input:focus + svg {
