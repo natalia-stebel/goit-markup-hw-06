@@ -926,8 +926,8 @@ img {
 }
 
 .form-message:focus {
-  outline: none;
-  border: var(--navigation-color);
+  outline: var(--navigation-color);
+  border-color: var(--navigation-color);
 }
 
 .policy-box {
