@@ -968,9 +968,8 @@ img {
   border-radius: 4px;
 }
 
-.policy-box-link {
-  color: #2196f3;
-  text-decoration: underline;
+.policy-box a {
+  color: var(--navigation-color);
 }
 
 .form-submit-btn {
