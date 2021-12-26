@@ -593,14 +593,35 @@ img {
 
   overflow: hidden;
 
-  transition: background-color 250ms var(--cubic), box-shadow 250ms var(--cubic),
-    transform 250ms var(--cubic);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscribe-button:hover,
 .subscribe-button:active {
-  background: var(--btn-shadow-color);
+  background: var(--navigation-color);
   box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.15);
 }
+.subscribe-icon {
+  fill: var(--accent-color);
+  margin-left: 10px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-button::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  right: 28px;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/icon-send.svg);
+  transform: translateY(calc(-50% + 40px));
+  transition: transform 500ms var(--cubic);
+}
+.button-subscribe:hover::after {
+  transform: translateY(-50%);
+}
+
 .join-list {
   display: flex;
 }
