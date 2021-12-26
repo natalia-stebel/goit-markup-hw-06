@@ -547,6 +547,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #fff;
 }
 .subscribe-list {
   display: flex;
@@ -897,8 +898,8 @@ img {
 }
 
 .form-input:focus {
-  outline: none;
-  border: 1px solid #2196f3;
+  outline: var(--navigation-color);
+  border-color: 1px solid var(--navigation-color);
 }
 
 .form-input:focus + svg {
