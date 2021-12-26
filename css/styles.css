@@ -588,7 +588,7 @@ img {
   border: none;
 
   font-size: 12px;
-  line-height: 1.875;
+  line-height: 1.9;
   letter-spacing: 0.06em;
 
   overflow: hidden;
@@ -614,7 +614,7 @@ img {
   top: 50%;
   width: 24px;
   height: 24px;
-  background-image: url(../images/icon-send.svg);
+  background-image: url(../images/subscribe.svg);
   transform: translateY(calc(-50% + 40px));
   transition: transform 500ms var(--cubic);
 }
