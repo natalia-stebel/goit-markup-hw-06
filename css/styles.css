@@ -538,7 +538,7 @@ img {
 }
 
 .subscribe-box {
-  display: flex;
+  margin-left: auto;
 }
 .subscribe-text {
   margin-bottom: 20px;
