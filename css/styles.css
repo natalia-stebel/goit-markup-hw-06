@@ -924,7 +924,7 @@ img {
   color: #bababa;
 }
 
-.form-input-box:focus {
+.form-message:focus {
   outline: none;
   border: var(--navigation-color);
 }
