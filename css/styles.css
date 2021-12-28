@@ -953,6 +953,11 @@ img {
   justify-content: center;
 }
 
+.policy-checkbox:focus {
+  border-color: var(--navigation-color);
+  outline: var(--navigation-color);
+}
+
 .policy-checkbox:checked + .policy-box::before {
   background-color: #2196f3;
   background-image: url(../images/icon-check.svg);
