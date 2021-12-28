@@ -949,6 +949,7 @@ img {
   padding: 0px;
   clip: rect(0 0 0 0);
   overflow: hidden;
+  display: flex;
   justify-content: center;
 }
 
@@ -961,14 +962,15 @@ img {
 }
 
 .policy-checkbox:focus + .policy-box::before {
-  border: 1px solid #2196f3;
+  border-color: 1px solid var(--navigation-color);
+  outline: var(--navigation-color);
 }
 
 .policy-box::before {
   content: "";
   width: 16px;
   height: 15px;
-  border: 1px solid var(--navigation-color);
+  border: 1px solid #212121;
   margin-right: 7px;
   border-radius: 4px;
   justify-content: center;
