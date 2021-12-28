@@ -970,7 +970,6 @@ img {
 .policy-checkbox:focus + .policy-box::before {
   border-color: 1px solid var(--navigation-color);
   outline: var(--navigation-color);
-  border: var(--navigation-color);
 }
 
 .policy-box::before {
