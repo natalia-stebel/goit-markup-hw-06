@@ -949,7 +949,7 @@ img {
   padding: 0px;
   clip: rect(0 0 0 0);
   overflow: hidden;
-  align-items: center;
+  justify-content: center;
 }
 
 .policy-checkbox:checked + .policy-box::before {
@@ -971,7 +971,7 @@ img {
   border: 1px solid var(--navigation-color);
   margin-right: 7px;
   border-radius: 4px;
-  align-items: center;
+  justify-content: center;
 }
 
 .policy-box a {
