@@ -937,7 +937,7 @@ img {
   font-size: 14px;
   color: #757575;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .policy-checkbox {
@@ -963,7 +963,7 @@ img {
 
 .policy-checkbox:focus + .policy-box::before {
   border-color: 1px solid var(--navigation-color);
-  outline: var(--navigation-color);
+  outline: none;
 }
 
 .policy-box::before {
