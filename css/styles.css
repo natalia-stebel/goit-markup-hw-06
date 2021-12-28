@@ -965,6 +965,7 @@ img {
   background-position: center;
   background-size: contain;
   border-color: var(--navigation-color);
+  outline: var(--navigation-color);
 }
 
 .policy-checkbox:focus + .policy-box::before {
